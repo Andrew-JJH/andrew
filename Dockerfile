@@ -1,7 +1,7 @@
 # Dockerfile para NestJS Backend
 FROM node:18-alpine AS build
 
-# Establecer directorio de trabajo
+# Establecer directorio de trabajso
 WORKDIR /app
 
 # Copiar package.json y package-lock.json
